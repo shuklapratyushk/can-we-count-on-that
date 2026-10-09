@@ -1,0 +1,43 @@
+{
+  "created_at_utc": "2026-10-07T00:38:29.382324+00:00",
+  "new_results_provenance": "Frozen public cBioPortal snapshot; complete observed-query registry",
+  "samples": 6210,
+  "patients": 6204,
+  "profiled_samples": 5924,
+  "panel_mutation_records": 13895,
+  "cohorts": 12,
+  "genes": 30,
+  "families": 360,
+  "interpretations": 5760,
+  "cross_engine_matches": 5760,
+  "single_axis_contrasts": 1440,
+  "single_axis_sensitive": 428,
+  "full_sensitive_families": 323,
+  "full_sensitive_one_axis_stable": 2,
+  "broad_sensitive_families": 112,
+  "broad_sensitive_one_axis_stable": 2,
+  "optimal_mean_questions": 1.148611111111111,
+  "best_global_fixed_order": "mutation_scope;assay_denominator;sample_context;analysis_unit",
+  "best_global_fixed_order_mean": 1.2381944444444444,
+  "random_fixed_order_mean": 2.4459780092592593,
+  "always_ask_four_mean": 4.0,
+  "optimal_max_questions": 2,
+  "saving_vs_always_four": 0.7128472222222222,
+  "saving_vs_best_global_fixed_order": 0.07234997195737525,
+  "simulation_paths": 5760,
+  "simulation_all_terminal_states_stable": true,
+  "descriptive_cohort_bootstrap_mean_questions_95": [
+    0.9152777777777779,
+    1.395868055555555
+  ],
+  "bootstrap_scope": "Descriptive resampling of 12 fixed cohorts, 30 genes retained per cohort; not a deployment-confidence interval",
+  "runtime_seconds": 8.1400819090004,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  },
+  "snapshot_started_at_utc": "2026-10-06T06:34:24.483642+00:00",
+  "snapshot_completed_at_utc": "2026-10-06T06:35:40.644356+00:00"
+}

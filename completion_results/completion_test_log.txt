@@ -1,0 +1,23 @@
+test_absolute_branch_when_relative_is_below_tolerance (__main__.CompletionContracts.test_absolute_branch_when_relative_is_below_tolerance) ... ok
+test_all_global_worlds_match_relative_bracket (__main__.CompletionContracts.test_all_global_worlds_match_relative_bracket) ... ok
+test_all_global_worlds_match_sharp_absolute_support (__main__.CompletionContracts.test_all_global_worlds_match_sharp_absolute_support) ... ok
+test_exact_strict_threshold_handles_equality (__main__.CompletionContracts.test_exact_strict_threshold_handles_equality) ... ok
+test_nested_classes_respected_in_every_local_world (__main__.CompletionContracts.test_nested_classes_respected_in_every_local_world) ... ok
+test_partial_patient_observation_enters_upper_bound (__main__.CompletionContracts.test_partial_patient_observation_enters_upper_bound) ... ok
+test_primary_context_does_not_use_missing_metastatic_status (__main__.CompletionContracts.test_primary_context_does_not_use_missing_metastatic_status) ... ok
+test_profiled_count_excludes_unprofiled_record (__main__.CompletionContracts.test_profiled_count_excludes_unprofiled_record) ... ok
+test_repeated_unprofiled_specimens_use_patient_or_not_a_sum (__main__.CompletionContracts.test_repeated_unprofiled_specimens_use_patient_or_not_a_sum) ... ok
+test_sample_bound_accounts_for_three_possible_positives (__main__.CompletionContracts.test_sample_bound_accounts_for_three_possible_positives) ... ok
+test_shared_status_unit_equality_is_not_semantic_ambiguity (__main__.CompletionContracts.test_shared_status_unit_equality_is_not_semantic_ambiguity) ... ok
+test_singleton_semantic_stability_does_not_identify_a_point (__main__.CompletionContracts.test_singleton_semantic_stability_does_not_identify_a_point) ... ok
+test_undefined_denominator_cannot_receive_a_certificate (__main__.CompletionContracts.test_undefined_denominator_cannot_receive_a_certificate) ... ok
+test_batch_bellman_matches_scalar_and_enumerated_paths (__main__.PlanningContracts.test_batch_bellman_matches_scalar_and_enumerated_paths) ... ok
+test_exact_expected_value_dominates_every_fixed_order (__main__.PlanningContracts.test_exact_expected_value_dominates_every_fixed_order) ... ok
+test_irrelevant_entropy_fields_are_skipped_by_optimum (__main__.PlanningContracts.test_irrelevant_entropy_fields_are_skipped_by_optimum) ... ok
+test_minimax_cost_and_all_terminal_sets (__main__.PlanningContracts.test_minimax_cost_and_all_terminal_sets) ... ok
+test_nonuniform_prior_and_nonunit_cost_are_explicit (__main__.PlanningContracts.test_nonuniform_prior_and_nonunit_cost_are_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.585s
+
+OK

@@ -1,0 +1,53 @@
+{
+  "case": "KIRC-VHL patient/cohort/all/broad",
+  "denominator": 512,
+  "recorded_positive": 166,
+  "unprofiled": 110,
+  "hypothetical_cap_results": [
+    {
+      "hypothetical_max_unknown_positives": 0,
+      "lower": 0.32421875,
+      "upper": 0.32421875,
+      "radius_pp": 0.0,
+      "point_guard_passes": true
+    },
+    {
+      "hypothetical_max_unknown_positives": 10,
+      "lower": 0.32421875,
+      "upper": 0.34375,
+      "radius_pp": 0.9765625,
+      "point_guard_passes": true
+    },
+    {
+      "hypothetical_max_unknown_positives": 25,
+      "lower": 0.32421875,
+      "upper": 0.373046875,
+      "radius_pp": 2.44140625,
+      "point_guard_passes": true
+    },
+    {
+      "hypothetical_max_unknown_positives": 26,
+      "lower": 0.32421875,
+      "upper": 0.375,
+      "radius_pp": 2.5390625,
+      "point_guard_passes": false
+    },
+    {
+      "hypothetical_max_unknown_positives": 50,
+      "lower": 0.32421875,
+      "upper": 0.421875,
+      "radius_pp": 4.8828125,
+      "point_guard_passes": false
+    },
+    {
+      "hypothetical_max_unknown_positives": 110,
+      "lower": 0.32421875,
+      "upper": 0.5390625,
+      "radius_pp": 10.7421875,
+      "point_guard_passes": false
+    }
+  ],
+  "additional_unknown_patients_to_measure_for_guaranteed_2_5pp_radius": 85,
+  "interpretation": "Caps illustrate conditional identification tightening and are not supported by this snapshot. Measuring 85 unknown patients guarantees at most 25 remaining unknown statuses, whatever their measured outcomes; assay error remains outside the model.",
+  "cross_patient_constraint_note": "A global positive-count cap couples blocks. The unrestricted separable support theorem cannot be reused for all paired constrained queries without a constrained optimizer."
+}

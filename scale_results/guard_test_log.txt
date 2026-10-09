@@ -1,0 +1,14 @@
+test_full_replay (__main__.GuardContracts.test_full_replay) ... ok
+test_identified_profiled_fraction (__main__.GuardContracts.test_identified_profiled_fraction) ... ok
+test_interval_instead_of_unidentified_point (__main__.GuardContracts.test_interval_instead_of_unidentified_point) ... ok
+test_missing_fields_require_clarification (__main__.GuardContracts.test_missing_fields_require_clarification) ... ok
+test_modified_answer_rejected (__main__.GuardContracts.test_modified_answer_rejected) ... ok
+test_modified_binding_rejected (__main__.GuardContracts.test_modified_binding_rejected) ... ok
+test_nonfinite_budget_rejected (__main__.GuardContracts.test_nonfinite_budget_rejected) ... ok
+test_unsupported_field_value_rejected (__main__.GuardContracts.test_unsupported_field_value_rejected) ... ok
+test_unsupported_fields_rejected (__main__.GuardContracts.test_unsupported_fields_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.911s
+
+OK

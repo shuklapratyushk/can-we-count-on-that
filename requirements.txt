@@ -1,0 +1,8 @@
+# Tested with Python 3.12.14. SQLite is part of the Python standard library.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+matplotlib==3.10.8
+reportlab==4.4.9
+PyMuPDF==1.26.6
+Pillow==12.3.0

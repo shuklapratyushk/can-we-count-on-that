@@ -1,0 +1,32 @@
+{
+  "name": "CLARA executable-specification extension v2",
+  "status": "Prospective analysis specification for this revision; not a public preregistration",
+  "original_results_status": "The original manuscript reports 330 contrasts and a 120-question stress test. Its raw artifacts were not supplied. New snapshot results must not be represented as a replication of that registry or parser.",
+  "source": "https://www.cbioportal.org/api",
+  "original_cohorts": ["blca", "brca", "coadread", "hnsc", "luad", "prad", "skcm", "ucec"],
+  "additional_cohorts": ["acc", "kirc", "lihc", "ov"],
+  "study_suffix": "_tcga_pan_can_atlas_2018",
+  "genes": ["TP53", "KRAS", "PIK3CA", "PTEN", "APC", "BRAF", "NRAS", "NF1", "EGFR", "ARID1A", "KDM6A", "NOTCH1", "RB1", "CDKN2A", "FBXW7", "CTNNB1", "ATM", "BRCA1", "BRCA2", "SMAD4", "STK11", "KEAP1", "ERBB2", "FGFR3", "GATA3", "SPOP", "FOXA1", "IDH1", "VHL", "SETD2"],
+  "broad_types": ["Missense_Mutation", "Nonsense_Mutation", "Frame_Shift_Del", "Frame_Shift_Ins", "In_Frame_Del", "In_Frame_Ins", "Splice_Site", "Translation_Start_Site", "Nonstop_Mutation"],
+  "truncating_types": ["Nonsense_Mutation", "Frame_Shift_Del", "Frame_Shift_Ins", "Splice_Site", "Translation_Start_Site", "Nonstop_Mutation"],
+  "fields": ["analysis_unit", "assay_denominator", "sample_context", "mutation_scope"],
+  "field_values": {
+    "analysis_unit": ["patient", "sample"],
+    "assay_denominator": ["profiled", "cohort"],
+    "sample_context": ["all", "primary"],
+    "mutation_scope": ["broad", "truncating"]
+  },
+  "reference_interpretation": ["patient", "profiled", "all", "broad"],
+  "inclusion": "Every listed cohort-gene combination; all executable interpretations with nonempty denominators. Retain genes with zero recorded mutations. No result-based filtering.",
+  "primary_tolerance": {"relative": 0.10, "absolute_percentage_points": 5.0, "operator": "OR", "relative_epsilon": 1e-12},
+  "sensitivity_tolerances": {"relative": [0.05, 0.10, 0.20, 0.40], "absolute_percentage_points": [1.0, 2.5, 5.0, 10.0]},
+  "denominator_estimand": "Profiled prevalence is conditional on at least one eligible profiled sample. Cohort-denominator observed-positive fraction is a lower bound, not an unbiased prevalence estimator. Numerators always require mutation-profile membership and the selected specimen context.",
+  "primary_sample_type": "Primary Solid Tumor",
+  "benchmarks": ["Four one-axis contrasts at the reference interpretation", "All 16 interpretations per cohort-gene family", "Eight broad-scope interpretations for denominator-context-unit interactions"],
+  "verification": "Independent SQLite DISTINCT-count and pandas set-aggregation execution. Compare numerator, denominator, profiled-unit count, and prevalence for every interpretation. Also test empty denominators, duplicated records, multiple specimens, context intersection, noncoding exclusion, and unprofiled positives.",
+  "planner": "Dynamic program minimizing expected clarification questions under a uniform prior over the enumerated interpretations. Stop only when all remaining interpretations are within both primary tolerances. Unit question costs; no user study. Compare against all 24 fixed field orders and always clarify all four fields.",
+  "new_language_evaluation": "None. Do not manufacture parser evaluation results or treat generated questions as independent researcher queries.",
+  "independence": "Four additional TCGA cohorts are cohort extensions within the same resource and schema, not independent-resource validation.",
+  "statistical_units": "Cohort-gene family, not individual interpretations or hypothetical dialogue traces. Report descriptive rates; any resampling must retain all interpretations within a family and acknowledge the small number of cohorts.",
+  "negative_results": "Report all cohorts and all planner comparisons regardless of whether they improve performance. Do not tune tolerances or gene lists on outcomes."
+}

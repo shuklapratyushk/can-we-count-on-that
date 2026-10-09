@@ -1,0 +1,99 @@
+{
+  "repository": "https://github.com/cBioPortal/datahub",
+  "commit": "dca75cb3f32b82d54a6f78bf0a6323e5b975aca1",
+  "files": [
+    {
+      "repository_path": "public/msk_impact_2017/meta_study.txt",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/dca75cb3f32b82d54a6f78bf0a6323e5b975aca1/public/msk_impact_2017/meta_study.txt",
+      "local_path": "data/msk/meta_study.txt",
+      "bytes": 300,
+      "sha256": "95529880f327eefcc62374b019c5312b6e9b344f0cf987ca156073e487234e84",
+      "git_lfs_sha256": null,
+      "git_lfs_bytes": null,
+      "retrieved_at_utc": "2026-10-06T23:15:39.008093+00:00"
+    },
+    {
+      "repository_path": "public/msk_impact_2017/meta_mutations.txt",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/dca75cb3f32b82d54a6f78bf0a6323e5b975aca1/public/msk_impact_2017/meta_mutations.txt",
+      "local_path": "data/msk/meta_mutations.txt",
+      "bytes": 334,
+      "sha256": "d7e6e409a83ac968bcc4b48036a7e21ccc5ef52cd2301fde56cc09d95c979934",
+      "git_lfs_sha256": null,
+      "git_lfs_bytes": null,
+      "retrieved_at_utc": "2026-10-06T23:15:42.441426+00:00"
+    },
+    {
+      "repository_path": "public/msk_impact_2017/LICENSE",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/dca75cb3f32b82d54a6f78bf0a6323e5b975aca1/public/msk_impact_2017/LICENSE",
+      "local_path": "data/msk/LICENSE",
+      "bytes": 455,
+      "sha256": "aa607179437132751f7c8fcd9f2b4ed97677ded9812ad97b99abd380ae77aec2",
+      "git_lfs_sha256": null,
+      "git_lfs_bytes": null,
+      "retrieved_at_utc": "2026-10-06T23:15:45.820511+00:00"
+    },
+    {
+      "repository_path": "public/msk_impact_2017/Readme.txt",
+      "url": "https://raw.githubusercontent.com/cBioPortal/datahub/dca75cb3f32b82d54a6f78bf0a6323e5b975aca1/public/msk_impact_2017/Readme.txt",
+      "local_path": "data/msk/Readme.txt",
+      "bytes": 122,
+      "sha256": "0f414b40c6da118c75900177552010582d81a4d6b00c5639396983c40716ce91",
+      "git_lfs_sha256": null,
+      "git_lfs_bytes": null,
+      "retrieved_at_utc": "2026-10-06T23:15:49.206392+00:00"
+    },
+    {
+      "repository_path": "public/msk_impact_2017/data_clinical_sample.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/dca75cb3f32b82d54a6f78bf0a6323e5b975aca1/public/msk_impact_2017/data_clinical_sample.txt",
+      "local_path": "data/msk/data_clinical_sample.txt",
+      "bytes": 1915057,
+      "sha256": "e47edd63e97e35013e7c52dd06ce81330c2c9f62d589159ff7367d16d2fee272",
+      "git_lfs_sha256": "e47edd63e97e35013e7c52dd06ce81330c2c9f62d589159ff7367d16d2fee272",
+      "git_lfs_bytes": 1915057,
+      "retrieved_at_utc": "2026-10-06T23:15:58.122277+00:00"
+    },
+    {
+      "repository_path": "public/msk_impact_2017/data_gene_panel_matrix.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/dca75cb3f32b82d54a6f78bf0a6323e5b975aca1/public/msk_impact_2017/data_gene_panel_matrix.txt",
+      "local_path": "data/msk/data_gene_panel_matrix.txt",
+      "bytes": 525403,
+      "sha256": "b17131e8dc59be3da4654ce1c8c1ed77dfed26c4f59f2bd84b4aaafec38a8865",
+      "git_lfs_sha256": "b17131e8dc59be3da4654ce1c8c1ed77dfed26c4f59f2bd84b4aaafec38a8865",
+      "git_lfs_bytes": 525403,
+      "retrieved_at_utc": "2026-10-06T23:16:06.662158+00:00"
+    },
+    {
+      "repository_path": "public/msk_impact_2017/data_mutations.txt",
+      "url": "https://nsssw8k94d.execute-api.us-east-1.amazonaws.com/objects/batch",
+      "local_path": "data/msk/data_mutations.txt",
+      "bytes": 20086660,
+      "sha256": "2623a33b3357c017a426cb188a26c11037c4f79c502025b7ab20db5711dbbb3e",
+      "git_lfs_sha256": "2623a33b3357c017a426cb188a26c11037c4f79c502025b7ab20db5711dbbb3e",
+      "git_lfs_bytes": 20086660,
+      "retrieved_at_utc": "2026-10-06T23:16:21.928020+00:00"
+    },
+    {
+      "repository_path": "reference_data/gene_panels/data_gene_panel_impact341.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/dca75cb3f32b82d54a6f78bf0a6323e5b975aca1/reference_data/gene_panels/data_gene_panel_impact341.txt",
+      "local_path": "data/msk/data_gene_panel_impact341.txt",
+      "bytes": 2151,
+      "sha256": "2d089c1305f7964a4f4e7746f2fd9135cbc3fe6ff1cafaf27eb3a55f8af7da0f",
+      "git_lfs_sha256": "2d089c1305f7964a4f4e7746f2fd9135cbc3fe6ff1cafaf27eb3a55f8af7da0f",
+      "git_lfs_bytes": 2151,
+      "retrieved_at_utc": "2026-10-06T23:16:30.067158+00:00"
+    },
+    {
+      "repository_path": "reference_data/gene_panels/data_gene_panel_impact410.txt",
+      "url": "https://media.githubusercontent.com/media/cBioPortal/datahub/dca75cb3f32b82d54a6f78bf0a6323e5b975aca1/reference_data/gene_panels/data_gene_panel_impact410.txt",
+      "local_path": "data/msk/data_gene_panel_impact410.txt",
+      "bytes": 2555,
+      "sha256": "cdb51eeebc0986a3c69bd6410009fe9323669c389432ab0a6846319c13eb34da",
+      "git_lfs_sha256": "cdb51eeebc0986a3c69bd6410009fe9323669c389432ab0a6846319c13eb34da",
+      "git_lfs_bytes": 2555,
+      "retrieved_at_utc": "2026-10-06T23:16:37.310310+00:00"
+    }
+  ],
+  "protocol_sha256": "93978e5e9c75e6fe63df964da5c5fbcce0fbd38f2fc19aba1922b4b3a039611b",
+  "license": "Source and adapted MSK data are provided under the source ODbL; see data/msk/LICENSE",
+  "retrieval_finished_at_utc": "2026-10-06T23:16:37.310375+00:00"
+}

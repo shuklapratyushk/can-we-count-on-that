@@ -1,0 +1,114 @@
+{
+  "schema": "clara.guard-receipt.v1",
+  "request": {
+    "cohort": "kirc",
+    "gene": "VHL",
+    "fields": {
+      "analysis_unit": "patient",
+      "assay_denominator": "profiled",
+      "sample_context": "all",
+      "mutation_scope": "broad"
+    }
+  },
+  "bindings": {
+    "snapshot_content_sha256": "7313b56b5662e478ba3626b6d0cf9c2904273380d09d9681441259ffe0cf19dd",
+    "protocol_sha256": "f71b5a5f4b50b2d6ff003523241a221d0f3e033c5db269a866e655c8108c2569",
+    "completion_protocol_sha256": "9b55093a052f1e34e1d28f3990a9d301f4bc79bde0f1d04373c6b70fc14aa436",
+    "implementation_sha256": "318680abe09909a70a34a843e50c62adea09564868b1c8bf15f26ab51f330cb8",
+    "completion_model": "independent patient blocks; shared nested specimen event states; profiled recorded statuses fixed",
+    "provenance_scope": "Query-level result and execution lineage; not tuple-level why/where provenance or a digital signature"
+  },
+  "certificate": {
+    "cohort": "kirc",
+    "gene": "VHL",
+    "fixed_fields": {
+      "analysis_unit": "patient",
+      "assay_denominator": "profiled",
+      "sample_context": "all",
+      "mutation_scope": "broad"
+    },
+    "candidate_count": 1,
+    "status": "point_answer_with_certificate",
+    "scope": "Supported typed TCGA interpretations under the shared assay-record completion model; no NLP or clinical correctness claim",
+    "semantic_certificate": {
+      "stable": true,
+      "violating_pairs": 0,
+      "sharp_absolute_diameter_pp": 0.0,
+      "sharp_relative_diameter_lower": 0.0,
+      "sharp_relative_diameter_upper": 0.0
+    },
+    "identification_guard": {
+      "candidate_envelope_lower": 0.4129353233830846,
+      "candidate_envelope_upper": 0.4129353233830846,
+      "minimax_point_radius_pp": 0.0,
+      "point_error_budget_pp": 2.5,
+      "point_supported_after_semantic_resolution": true
+    },
+    "answer": {
+      "interval": [
+        0.4129353233830846,
+        0.4129353233830846
+      ],
+      "minimax_point": 0.4129353233830846,
+      "interpretation": "Sharp envelope of feasible supported values; midpoint is a minimax representative, not an unbiased prevalence estimator"
+    },
+    "stopping_tolerance": {
+      "relative": 0.1,
+      "absolute_percentage_points": 5.0,
+      "operator": "OR",
+      "relative_epsilon": 1e-12
+    },
+    "uniform_prior_expected_questions": 0.0,
+    "next_field": null,
+    "next_prompt": null,
+    "data_note": "Profile labels and recorded classes are fixed. No per-base coverage or technical error model. Clarification does not measure unprofiled specimens.",
+    "interpretations": [
+      {
+        "index": 0,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "patient",
+        "assay_denominator": "profiled",
+        "sample_context": "all",
+        "mutation_scope": "broad",
+        "positive": 166,
+        "denominator": 402,
+        "profiled_units": 402,
+        "prevalence": 0.4129353233830846,
+        "missingness_upper_bound": 0.4129353233830846,
+        "lower": 0.4129353233830846,
+        "upper": 0.4129353233830846
+      }
+    ]
+  },
+  "request_sha256": "f049529c8ecfcf5215da86015267d2f937391e410aae922a1d989aa397a6034f",
+  "certificate_sha256": "b550a012221115b70774dd52ee295ed8a2c6c3c14d3f8b9c87e371b19f747272",
+  "provenance": {
+    "@context": {
+      "prov": "http://www.w3.org/ns/prov#"
+    },
+    "@graph": [
+      {
+        "@id": "urn:sha256:7313b56b5662e478ba3626b6d0cf9c2904273380d09d9681441259ffe0cf19dd",
+        "@type": "prov:Entity"
+      },
+      {
+        "@id": "urn:sha256:4aeca8594f84584c61be36d7e1f15a77186f390a921073911f9c3c2692f435ef",
+        "@type": "prov:Activity",
+        "prov:used": [
+          {
+            "@id": "urn:sha256:7313b56b5662e478ba3626b6d0cf9c2904273380d09d9681441259ffe0cf19dd"
+          }
+        ]
+      },
+      {
+        "@id": "urn:sha256:b550a012221115b70774dd52ee295ed8a2c6c3c14d3f8b9c87e371b19f747272",
+        "@type": "prov:Entity",
+        "prov:wasGeneratedBy": {
+          "@id": "urn:sha256:4aeca8594f84584c61be36d7e1f15a77186f390a921073911f9c3c2692f435ef"
+        }
+      }
+    ]
+  },
+  "receipt_sha256": "4bee6801f281e2250e7d1eb6fcca4537535ed4894ef6f0c0535cce53ef227b8c"
+}

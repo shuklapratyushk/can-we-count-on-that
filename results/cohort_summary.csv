@@ -1,0 +1,13 @@
+cohort,group,samples,patients,profiled_samples,profiled_patients,primary_samples,primary_profiled_samples,panel_mutation_records
+BLCA,original,411,411,410,410,411,410,1279
+BRCA,original,1084,1084,1066,1066,1084,1066,1368
+COADREAD,original,594,594,534,534,594,534,2272
+HNSC,original,523,523,515,515,523,515,1063
+LUAD,original,566,566,566,566,566,566,1361
+PRAD,original,494,494,494,494,494,494,298
+SKCM,original,448,442,440,438,81,77,1351
+UCEC,original,529,529,517,517,529,517,3504
+ACC,additional,92,92,91,91,92,91,63
+KIRC,additional,512,512,402,402,512,402,338
+LIHC,additional,372,372,366,366,372,366,427
+OV,additional,585,585,523,523,583,521,571

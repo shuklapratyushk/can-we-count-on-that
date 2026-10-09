@@ -1,0 +1,15 @@
+{
+  "name": "CLARA targeted-assay stress-test addendum v1",
+  "status": "Locally recorded before downloading complete clinical and mutation outcomes; follows inspection of public metadata and file headers. Not a public preregistration.",
+  "study": "msk_impact_2017",
+  "repository": "https://github.com/cBioPortal/datahub",
+  "commit": "dca75cb3f32b82d54a6f78bf0a6323e5b975aca1",
+  "gene_panel_protocol": "Use the unchanged 30-gene list from reproducibility/protocol.json; retain every family. Gene-specific profiled eligibility requires membership in the declared mutation panel and the corresponding authoritative panel gene list. Never infer eligibility from presence or absence of a mutation record.",
+  "clinical_context": "Primary context uses SAMPLE_TYPE == Primary. Preserve the source value in the normalized metadata. This is a study adapter, not a clinical assumption about metastatic or other specimen labels.",
+  "specifications": "Same four binary fields, consequence-class sets, tolerances and shared-completion model as the TCGA analysis. An unprofiled status is specific to the gene. Patient positivity is an OR over context-eligible specimens.",
+  "inclusion": "All clinical samples and all 30 genes. A zero-denominator interpretation is reported undefined and cannot receive a stability certificate. No outcome-based family exclusion.",
+  "evaluation": "Report this mixed-cancer targeted clinical cohort separately from the TCGA matrix. Compare SQL and pandas counts for all 480 interpretations. Report observed and completion-robust sensitivity, reference-axis effects, missingness, patient specimen multiplicity, all 24 fixed-order baselines and exact uniform planning. Do not combine it into a pooled cancer-frequency estimate.",
+  "independence": "A distinct clinical cohort and targeted-assay regime, still curated by cBioPortal. Not an independent portal or randomized validation.",
+  "provenance": "Pin every source to the recorded repository commit; verify each large-file download against the Git LFS content SHA-256 and byte count. Retain source metadata and license. Keep the original TCGA protocol and snapshot unchanged.",
+  "missing_status_limit": "Use the declared local block budget of 100000 states and fail visibly if exceeded. Do not approximate or prune a patient block silently. General repeated-unprofiled blocks are covered by direct global enumeration fixtures, while the TCGA affine case has independent global LP verification."
+}

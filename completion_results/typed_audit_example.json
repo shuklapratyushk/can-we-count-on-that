@@ -1,0 +1,79 @@
+{
+  "cohort": "kirc",
+  "gene": "VHL",
+  "fixed_fields": {
+    "analysis_unit": null,
+    "assay_denominator": "cohort",
+    "sample_context": "all",
+    "mutation_scope": "broad"
+  },
+  "candidate_count": 2,
+  "status": "interval_answer",
+  "scope": "Supported typed TCGA interpretations under the shared assay-record completion model; no NLP or clinical correctness claim",
+  "semantic_certificate": {
+    "stable": true,
+    "violating_pairs": 0,
+    "sharp_absolute_diameter_pp": 0.0,
+    "sharp_relative_diameter_lower": 0.0,
+    "sharp_relative_diameter_upper": 0.0
+  },
+  "identification_guard": {
+    "candidate_envelope_lower": 0.32421875,
+    "candidate_envelope_upper": 0.5390625,
+    "minimax_point_radius_pp": 10.7421875,
+    "point_error_budget_pp": 2.5,
+    "point_supported_after_semantic_resolution": false
+  },
+  "answer": {
+    "interval": [
+      0.32421875,
+      0.5390625
+    ],
+    "minimax_point": null,
+    "interpretation": "Sharp envelope of feasible supported values; midpoint is a minimax representative, not an unbiased prevalence estimator"
+  },
+  "stopping_tolerance": {
+    "relative": 0.1,
+    "absolute_percentage_points": 5.0,
+    "operator": "OR",
+    "relative_epsilon": 1e-12
+  },
+  "uniform_prior_expected_questions": 0.0,
+  "next_field": null,
+  "next_prompt": null,
+  "data_note": "Profile labels and recorded classes are fixed. No per-base coverage or technical error model. Clarification does not measure unprofiled specimens.",
+  "interpretations": [
+    {
+      "index": 4,
+      "cohort": "kirc",
+      "gene": "VHL",
+      "analysis_unit": "patient",
+      "assay_denominator": "cohort",
+      "sample_context": "all",
+      "mutation_scope": "broad",
+      "positive": 166,
+      "denominator": 512,
+      "profiled_units": 402,
+      "prevalence": 0.32421875,
+      "missingness_upper_bound": 0.5390625,
+      "lower": 0.32421875,
+      "upper": 0.5390625
+    },
+    {
+      "index": 12,
+      "cohort": "kirc",
+      "gene": "VHL",
+      "analysis_unit": "sample",
+      "assay_denominator": "cohort",
+      "sample_context": "all",
+      "mutation_scope": "broad",
+      "positive": 166,
+      "denominator": 512,
+      "profiled_units": 402,
+      "prevalence": 0.32421875,
+      "missingness_upper_bound": 0.5390625,
+      "lower": 0.32421875,
+      "upper": 0.5390625
+    }
+  ]
+}

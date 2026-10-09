@@ -1,0 +1,128 @@
+{
+  "schema": "clara.guard-receipt.v1",
+  "request": {
+    "cohort": "kirc",
+    "gene": "VHL",
+    "fields": {
+      "assay_denominator": "cohort",
+      "sample_context": "all",
+      "mutation_scope": "broad"
+    }
+  },
+  "bindings": {
+    "snapshot_content_sha256": "7313b56b5662e478ba3626b6d0cf9c2904273380d09d9681441259ffe0cf19dd",
+    "protocol_sha256": "f71b5a5f4b50b2d6ff003523241a221d0f3e033c5db269a866e655c8108c2569",
+    "completion_protocol_sha256": "9b55093a052f1e34e1d28f3990a9d301f4bc79bde0f1d04373c6b70fc14aa436",
+    "implementation_sha256": "318680abe09909a70a34a843e50c62adea09564868b1c8bf15f26ab51f330cb8",
+    "completion_model": "independent patient blocks; shared nested specimen event states; profiled recorded statuses fixed",
+    "provenance_scope": "Query-level result and execution lineage; not tuple-level why/where provenance or a digital signature"
+  },
+  "certificate": {
+    "cohort": "kirc",
+    "gene": "VHL",
+    "fixed_fields": {
+      "assay_denominator": "cohort",
+      "sample_context": "all",
+      "mutation_scope": "broad"
+    },
+    "candidate_count": 2,
+    "status": "interval_answer",
+    "scope": "Supported typed TCGA interpretations under the shared assay-record completion model; no NLP or clinical correctness claim",
+    "semantic_certificate": {
+      "stable": true,
+      "violating_pairs": 0,
+      "sharp_absolute_diameter_pp": 0.0,
+      "sharp_relative_diameter_lower": 0.0,
+      "sharp_relative_diameter_upper": 0.0
+    },
+    "identification_guard": {
+      "candidate_envelope_lower": 0.32421875,
+      "candidate_envelope_upper": 0.5390625,
+      "minimax_point_radius_pp": 10.7421875,
+      "point_error_budget_pp": 2.5,
+      "point_supported_after_semantic_resolution": false
+    },
+    "answer": {
+      "interval": [
+        0.32421875,
+        0.5390625
+      ],
+      "minimax_point": null,
+      "interpretation": "Sharp envelope of feasible supported values; midpoint is a minimax representative, not an unbiased prevalence estimator"
+    },
+    "stopping_tolerance": {
+      "relative": 0.1,
+      "absolute_percentage_points": 5.0,
+      "operator": "OR",
+      "relative_epsilon": 1e-12
+    },
+    "uniform_prior_expected_questions": 0.0,
+    "next_field": null,
+    "next_prompt": null,
+    "data_note": "Profile labels and recorded classes are fixed. No per-base coverage or technical error model. Clarification does not measure unprofiled specimens.",
+    "interpretations": [
+      {
+        "index": 4,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "patient",
+        "assay_denominator": "cohort",
+        "sample_context": "all",
+        "mutation_scope": "broad",
+        "positive": 166,
+        "denominator": 512,
+        "profiled_units": 402,
+        "prevalence": 0.32421875,
+        "missingness_upper_bound": 0.5390625,
+        "lower": 0.32421875,
+        "upper": 0.5390625
+      },
+      {
+        "index": 12,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "sample",
+        "assay_denominator": "cohort",
+        "sample_context": "all",
+        "mutation_scope": "broad",
+        "positive": 166,
+        "denominator": 512,
+        "profiled_units": 402,
+        "prevalence": 0.32421875,
+        "missingness_upper_bound": 0.5390625,
+        "lower": 0.32421875,
+        "upper": 0.5390625
+      }
+    ]
+  },
+  "request_sha256": "45fec36aa19c253d80e37b3aecc98ec7f9441a9721d58ad3777ec86b89dbda82",
+  "certificate_sha256": "7bbf2244f95926aa90481cba1fe663c6685272a3a41c6c0e82f1e4bbdd35dbce",
+  "provenance": {
+    "@context": {
+      "prov": "http://www.w3.org/ns/prov#"
+    },
+    "@graph": [
+      {
+        "@id": "urn:sha256:7313b56b5662e478ba3626b6d0cf9c2904273380d09d9681441259ffe0cf19dd",
+        "@type": "prov:Entity"
+      },
+      {
+        "@id": "urn:sha256:f7424d832d28006660f10c63347dc76042ce8c02ce1f99ec8d59449faf584d61",
+        "@type": "prov:Activity",
+        "prov:used": [
+          {
+            "@id": "urn:sha256:7313b56b5662e478ba3626b6d0cf9c2904273380d09d9681441259ffe0cf19dd"
+          }
+        ]
+      },
+      {
+        "@id": "urn:sha256:7bbf2244f95926aa90481cba1fe663c6685272a3a41c6c0e82f1e4bbdd35dbce",
+        "@type": "prov:Entity",
+        "prov:wasGeneratedBy": {
+          "@id": "urn:sha256:f7424d832d28006660f10c63347dc76042ce8c02ce1f99ec8d59449faf584d61"
+        }
+      }
+    ]
+  },
+  "receipt_sha256": "0f5d68684537ecfa66745aee467d1f77fcd1a19fcdc489985bb5d0cebfc9e8de"
+}

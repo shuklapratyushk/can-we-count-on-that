@@ -1,0 +1,55 @@
+[
+  {
+    "request": {
+      "cohort": "kirc",
+      "gene": "VHL",
+      "fields": {}
+    },
+    "status": "clarification_required",
+    "answer": null,
+    "replay_verified": true
+  },
+  {
+    "request": {
+      "cohort": "kirc",
+      "gene": "VHL",
+      "fields": {
+        "assay_denominator": "cohort",
+        "sample_context": "all",
+        "mutation_scope": "broad"
+      }
+    },
+    "status": "interval_answer",
+    "answer": {
+      "interval": [
+        0.32421875,
+        0.5390625
+      ],
+      "minimax_point": null,
+      "interpretation": "Sharp envelope of feasible supported values; midpoint is a minimax representative, not an unbiased prevalence estimator"
+    },
+    "replay_verified": true
+  },
+  {
+    "request": {
+      "cohort": "kirc",
+      "gene": "VHL",
+      "fields": {
+        "analysis_unit": "patient",
+        "assay_denominator": "profiled",
+        "sample_context": "all",
+        "mutation_scope": "broad"
+      }
+    },
+    "status": "point_answer_with_certificate",
+    "answer": {
+      "interval": [
+        0.4129353233830846,
+        0.4129353233830846
+      ],
+      "minimax_point": 0.4129353233830846,
+      "interpretation": "Sharp envelope of feasible supported values; midpoint is a minimax representative, not an unbiased prevalence estimator"
+    },
+    "replay_verified": true
+  }
+]

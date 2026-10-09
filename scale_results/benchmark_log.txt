@@ -1,0 +1,27 @@
+Built local tables for blca
+Built local tables for brca
+Built local tables for coadread
+Built local tables for hnsc
+Built local tables for luad
+Built local tables for prad
+Built local tables for skcm
+Built local tables for ucec
+Built local tables for acc
+Built local tables for kirc
+Built local tables for lihc
+Built local tables for ov
+Timed registry 12 cohorts x 30 genes: 1039.5 ms
+Timed registry 1 cohorts x 30 genes: 89.1 ms
+Timed registry 12 cohorts x 5 genes: 185.0 ms
+Timed registry 6 cohorts x 30 genes: 555.7 ms
+Timed registry 12 cohorts x 30 genes: 1098.6 ms
+Timed registry 3 cohorts x 30 genes: 326.3 ms
+Timed registry 12 cohorts x 10 genes: 372.4 ms
+Timed registry 12 cohorts x 1 genes: 35.8 ms
+Timed registry 12 cohorts x 20 genes: 711.7 ms
+Timed synthetic block count 10
+Timed synthetic block count 100
+Timed synthetic block count 1000
+Timed synthetic block count 10000
+Timed synthetic block count 100000
+Serial scaling benchmark completed.

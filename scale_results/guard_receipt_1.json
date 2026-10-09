@@ -1,0 +1,337 @@
+{
+  "schema": "clara.guard-receipt.v1",
+  "request": {
+    "cohort": "kirc",
+    "gene": "VHL",
+    "fields": {}
+  },
+  "bindings": {
+    "snapshot_content_sha256": "7313b56b5662e478ba3626b6d0cf9c2904273380d09d9681441259ffe0cf19dd",
+    "protocol_sha256": "f71b5a5f4b50b2d6ff003523241a221d0f3e033c5db269a866e655c8108c2569",
+    "completion_protocol_sha256": "9b55093a052f1e34e1d28f3990a9d301f4bc79bde0f1d04373c6b70fc14aa436",
+    "implementation_sha256": "318680abe09909a70a34a843e50c62adea09564868b1c8bf15f26ab51f330cb8",
+    "completion_model": "independent patient blocks; shared nested specimen event states; profiled recorded statuses fixed",
+    "provenance_scope": "Query-level result and execution lineage; not tuple-level why/where provenance or a digital signature"
+  },
+  "certificate": {
+    "cohort": "kirc",
+    "gene": "VHL",
+    "fixed_fields": {},
+    "candidate_count": 16,
+    "status": "clarification_required",
+    "scope": "Supported typed TCGA interpretations under the shared assay-record completion model; no NLP or clinical correctness claim",
+    "semantic_certificate": {
+      "stable": false,
+      "violating_pairs": 96,
+      "sharp_absolute_diameter_pp": 33.3984375,
+      "sharp_relative_diameter_lower": 0.8976377952731127,
+      "sharp_relative_diameter_upper": 0.8976377952749317
+    },
+    "identification_guard": {
+      "candidate_envelope_lower": 0.205078125,
+      "candidate_envelope_upper": 0.5390625,
+      "minimax_point_radius_pp": 16.69921875,
+      "point_error_budget_pp": 2.5,
+      "point_supported_after_semantic_resolution": false
+    },
+    "answer": null,
+    "stopping_tolerance": {
+      "relative": 0.1,
+      "absolute_percentage_points": 5.0,
+      "operator": "OR",
+      "relative_epsilon": 1e-12
+    },
+    "uniform_prior_expected_questions": 2.0,
+    "next_field": "assay_denominator",
+    "next_prompt": "Use profiled units, or the full-cohort completion target?",
+    "data_note": "Profile labels and recorded classes are fixed. No per-base coverage or technical error model. Clarification does not measure unprofiled specimens.",
+    "interpretations": [
+      {
+        "index": 0,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "patient",
+        "assay_denominator": "profiled",
+        "sample_context": "all",
+        "mutation_scope": "broad",
+        "positive": 166,
+        "denominator": 402,
+        "profiled_units": 402,
+        "prevalence": 0.4129353233830846,
+        "missingness_upper_bound": 0.4129353233830846,
+        "lower": 0.4129353233830846,
+        "upper": 0.4129353233830846
+      },
+      {
+        "index": 1,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "patient",
+        "assay_denominator": "profiled",
+        "sample_context": "all",
+        "mutation_scope": "truncating",
+        "positive": 105,
+        "denominator": 402,
+        "profiled_units": 402,
+        "prevalence": 0.26119402985074625,
+        "missingness_upper_bound": 0.26119402985074625,
+        "lower": 0.26119402985074625,
+        "upper": 0.26119402985074625
+      },
+      {
+        "index": 2,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "patient",
+        "assay_denominator": "profiled",
+        "sample_context": "primary",
+        "mutation_scope": "broad",
+        "positive": 166,
+        "denominator": 402,
+        "profiled_units": 402,
+        "prevalence": 0.4129353233830846,
+        "missingness_upper_bound": 0.4129353233830846,
+        "lower": 0.4129353233830846,
+        "upper": 0.4129353233830846
+      },
+      {
+        "index": 3,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "patient",
+        "assay_denominator": "profiled",
+        "sample_context": "primary",
+        "mutation_scope": "truncating",
+        "positive": 105,
+        "denominator": 402,
+        "profiled_units": 402,
+        "prevalence": 0.26119402985074625,
+        "missingness_upper_bound": 0.26119402985074625,
+        "lower": 0.26119402985074625,
+        "upper": 0.26119402985074625
+      },
+      {
+        "index": 4,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "patient",
+        "assay_denominator": "cohort",
+        "sample_context": "all",
+        "mutation_scope": "broad",
+        "positive": 166,
+        "denominator": 512,
+        "profiled_units": 402,
+        "prevalence": 0.32421875,
+        "missingness_upper_bound": 0.5390625,
+        "lower": 0.32421875,
+        "upper": 0.5390625
+      },
+      {
+        "index": 5,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "patient",
+        "assay_denominator": "cohort",
+        "sample_context": "all",
+        "mutation_scope": "truncating",
+        "positive": 105,
+        "denominator": 512,
+        "profiled_units": 402,
+        "prevalence": 0.205078125,
+        "missingness_upper_bound": 0.419921875,
+        "lower": 0.205078125,
+        "upper": 0.419921875
+      },
+      {
+        "index": 6,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "patient",
+        "assay_denominator": "cohort",
+        "sample_context": "primary",
+        "mutation_scope": "broad",
+        "positive": 166,
+        "denominator": 512,
+        "profiled_units": 402,
+        "prevalence": 0.32421875,
+        "missingness_upper_bound": 0.5390625,
+        "lower": 0.32421875,
+        "upper": 0.5390625
+      },
+      {
+        "index": 7,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "patient",
+        "assay_denominator": "cohort",
+        "sample_context": "primary",
+        "mutation_scope": "truncating",
+        "positive": 105,
+        "denominator": 512,
+        "profiled_units": 402,
+        "prevalence": 0.205078125,
+        "missingness_upper_bound": 0.419921875,
+        "lower": 0.205078125,
+        "upper": 0.419921875
+      },
+      {
+        "index": 8,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "sample",
+        "assay_denominator": "profiled",
+        "sample_context": "all",
+        "mutation_scope": "broad",
+        "positive": 166,
+        "denominator": 402,
+        "profiled_units": 402,
+        "prevalence": 0.4129353233830846,
+        "missingness_upper_bound": 0.4129353233830846,
+        "lower": 0.4129353233830846,
+        "upper": 0.4129353233830846
+      },
+      {
+        "index": 9,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "sample",
+        "assay_denominator": "profiled",
+        "sample_context": "all",
+        "mutation_scope": "truncating",
+        "positive": 105,
+        "denominator": 402,
+        "profiled_units": 402,
+        "prevalence": 0.26119402985074625,
+        "missingness_upper_bound": 0.26119402985074625,
+        "lower": 0.26119402985074625,
+        "upper": 0.26119402985074625
+      },
+      {
+        "index": 10,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "sample",
+        "assay_denominator": "profiled",
+        "sample_context": "primary",
+        "mutation_scope": "broad",
+        "positive": 166,
+        "denominator": 402,
+        "profiled_units": 402,
+        "prevalence": 0.4129353233830846,
+        "missingness_upper_bound": 0.4129353233830846,
+        "lower": 0.4129353233830846,
+        "upper": 0.4129353233830846
+      },
+      {
+        "index": 11,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "sample",
+        "assay_denominator": "profiled",
+        "sample_context": "primary",
+        "mutation_scope": "truncating",
+        "positive": 105,
+        "denominator": 402,
+        "profiled_units": 402,
+        "prevalence": 0.26119402985074625,
+        "missingness_upper_bound": 0.26119402985074625,
+        "lower": 0.26119402985074625,
+        "upper": 0.26119402985074625
+      },
+      {
+        "index": 12,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "sample",
+        "assay_denominator": "cohort",
+        "sample_context": "all",
+        "mutation_scope": "broad",
+        "positive": 166,
+        "denominator": 512,
+        "profiled_units": 402,
+        "prevalence": 0.32421875,
+        "missingness_upper_bound": 0.5390625,
+        "lower": 0.32421875,
+        "upper": 0.5390625
+      },
+      {
+        "index": 13,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "sample",
+        "assay_denominator": "cohort",
+        "sample_context": "all",
+        "mutation_scope": "truncating",
+        "positive": 105,
+        "denominator": 512,
+        "profiled_units": 402,
+        "prevalence": 0.205078125,
+        "missingness_upper_bound": 0.419921875,
+        "lower": 0.205078125,
+        "upper": 0.419921875
+      },
+      {
+        "index": 14,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "sample",
+        "assay_denominator": "cohort",
+        "sample_context": "primary",
+        "mutation_scope": "broad",
+        "positive": 166,
+        "denominator": 512,
+        "profiled_units": 402,
+        "prevalence": 0.32421875,
+        "missingness_upper_bound": 0.5390625,
+        "lower": 0.32421875,
+        "upper": 0.5390625
+      },
+      {
+        "index": 15,
+        "cohort": "kirc",
+        "gene": "VHL",
+        "analysis_unit": "sample",
+        "assay_denominator": "cohort",
+        "sample_context": "primary",
+        "mutation_scope": "truncating",
+        "positive": 105,
+        "denominator": 512,
+        "profiled_units": 402,
+        "prevalence": 0.205078125,
+        "missingness_upper_bound": 0.419921875,
+        "lower": 0.205078125,
+        "upper": 0.419921875
+      }
+    ]
+  },
+  "request_sha256": "11fb26a2666417dd8b2485f72a7b3a17e8e81ccd48c219f2372f2fcb73c3ef62",
+  "certificate_sha256": "ca634ab8249bcf8c5b1569bfce907a058fd6b4d861b4cda41c580e69074ade29",
+  "provenance": {
+    "@context": {
+      "prov": "http://www.w3.org/ns/prov#"
+    },
+    "@graph": [
+      {
+        "@id": "urn:sha256:7313b56b5662e478ba3626b6d0cf9c2904273380d09d9681441259ffe0cf19dd",
+        "@type": "prov:Entity"
+      },
+      {
+        "@id": "urn:sha256:19b74dd3acfdd96a3ca86f6139748fd7c265e3e038b07489741c925a6a101376",
+        "@type": "prov:Activity",
+        "prov:used": [
+          {
+            "@id": "urn:sha256:7313b56b5662e478ba3626b6d0cf9c2904273380d09d9681441259ffe0cf19dd"
+          }
+        ]
+      },
+      {
+        "@id": "urn:sha256:ca634ab8249bcf8c5b1569bfce907a058fd6b4d861b4cda41c580e69074ade29",
+        "@type": "prov:Entity",
+        "prov:wasGeneratedBy": {
+          "@id": "urn:sha256:19b74dd3acfdd96a3ca86f6139748fd7c265e3e038b07489741c925a6a101376"
+        }
+      }
+    ]
+  },
+  "receipt_sha256": "bf59a69fb779184db59b1652696ff462d857305ec6e984327c249921776f06dc"
+}

@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.env.*
+*.aux
+*.fls
+*.fdb_latexmk
+*.out
+.DS_Store
+Thumbs.db

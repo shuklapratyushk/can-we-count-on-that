@@ -1,0 +1,72 @@
+{
+  "title": "CLARA: coupled missing-status certificates and cost-optimal scientific clarification",
+  "created_at_utc": "2026-10-06T22:51:25.593786+00:00",
+  "status": "New analysis specification recorded before completion-aware computations; not public preregistration",
+  "snapshot": "Reuse the frozen 2026-10-06 public snapshot, preserving its pre-download protocol and raw hashes",
+  "scientific_model": "Profiled specimens have their recorded consequence-class events; each unprofiled specimen has a latent state absent / broad-only / truncating, with truncating a subset of broad. This is an assay-record model, not pathogenicity or true per-base coverage.",
+  "patient_model": "Cohort-mode positivity is an OR over all context-eligible specimens, including latent unprofiled specimens; profiled mode only includes mutation-profiled specimens. Partial patient observation is included in cohort bounds.",
+  "completion_constraint": "Shared specimen statuses across alternatives; patient blocks independent, without population prevalence priors",
+  "inclusion": "Every one of the existing 360 cohort-gene families and all 16 specifications. Do not select families on completion-aware results.",
+  "certificates": [
+    "Observed snapshot pair divergence",
+    "Independent interval-envelope outer bound",
+    "Sharp joint absolute divergence",
+    "Sharp joint relative divergence, with exact rational threshold decisions"
+  ],
+  "primary_tolerances": {
+    "relative": 0.1,
+    "absolute_pp": 5.0,
+    "epsilon": 1e-12
+  },
+  "relative_root_interval_iterations": 40,
+  "planning": [
+    "Expected-cost Bellman optimum",
+    "Minimax-cost Bellman optimum",
+    "All 24 fixed orders with identical stopping",
+    "Greedy expected violating-edge reduction per unit cost",
+    "Entropy-only split baseline"
+  ],
+  "prior_grid": {
+    "field_zero_probabilities": [
+      0.2,
+      0.5,
+      0.8
+    ],
+    "interpretation": "81 product-Bernoulli scenario priors, not user population estimates"
+  },
+  "cost_scenarios": {
+    "equal": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "scope_expensive": [
+      1,
+      1,
+      1,
+      3
+    ],
+    "eligibility_expensive": [
+      1,
+      3,
+      3,
+      1
+    ]
+  },
+  "point_error_budget_pp": 2.5,
+  "point_guard": "A selected specification whose sharp completion interval exceeds 5 pp cannot support a point value within 2.5 pp under this model. Report an interval; clarification does not collect measurements.",
+  "threshold_grid": "Existing 16 tolerance combinations, applied to sharp coupled certificates without outcome tuning",
+  "validation": [
+    "Closed-form nested and shared-status fixtures",
+    "Repeated-specimen partial-observation fixture",
+    "Exhaustive global completion enumeration on small fixtures",
+    "Independent global linear-program support-function verification on all TCGA genomic family-pair primary labels; this snapshot has at most one unprofiled specimen per patient, making the patient OR affine",
+    "Rational threshold decisions",
+    "Planner policy paths agree with Bellman values",
+    "All terminal subsets satisfy the chosen graph certificate"
+  ],
+  "no_new_nlp_or_human_claim": "No language parser, new user study, calibrated intent prior, clinical benefit, or acceptance guarantee",
+  "primary_claim": "An executable application of separable robust fractional optimization and classical decision-tree planning; do not claim these general algorithms are new",
+  "user_request_time_utc": "2026-10-06T22:42:48Z"
+}

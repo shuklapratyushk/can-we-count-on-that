@@ -1,0 +1,25 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{mathptmx,microtype}
+\usepackage[hidelinks]{hyperref}
+\pagestyle{empty}
+\begin{document}
+\begin{center}
+{\Large\bfseries CLARA: Shared-Completion Certificates\\for Cancer-Genomics Query Clarification}\par\medskip
+Pratyush Kumar Shukla, Manveer Singh Tib, and Siddhant Garg\par
+Wakeland High School, Frisco, Texas, USA\par
+Correspondence: pratyushs2009@gmail.com
+\end{center}
+\medskip
+\noindent\textbf{Background.} Cancer-genomics frequency queries can leave patients versus specimens, assay denominators, specimen context, and mutation classes unresolved. Missing measurements introduce another uncertainty: every alternative must refer to the same unmeasured specimens. Independent identification intervals can compare incompatible worlds and falsely suggest that clarification is necessary.
+
+\medskip\noindent\textbf{Methods.} CLARA enumerates 16 typed scientific specifications and represents an unprofiled specimen as absent, broad-only, or restricted-and-broad. Sharing these nested states across queries and factoring contributions by patient gives sharp absolute discrepancies and parametric relative-discrepancy bounds. Exact rational count-support comparisons decide the strict 10\% relative OR 5-percentage-point (pp) cutoff. A violating-pair graph supports sufficient stopping and expected-cost or minimax clarification. A separate point guard tests whether the sharp identification interval supports a point-error budget after scientific meaning is resolved.
+
+\medskip\noindent\textbf{Results.} A frozen public snapshot retains 12 TCGA cohorts, 30 genes, 6,210 specimens, and all 360 cohort--gene families. SQL and pandas counts agree on 5,760 specifications. Shared completions remove 3,048 independent-box alarms among 43,200 pairs, including 289 beyond exact equivalence merging. Uniform-intent clarification is 1.773 versus 1.833 questions for the equivalence-merged baseline (3.28\%); the per-family best fixed order matches the dynamic program. After all fields are selected, 720 TCGA specifications still fail a 2.5 pp point-error budget. KIRC--VHL cohort frequency spans 32.42--53.91\%, despite a fixed profiled fraction of 41.29\%. A separate MSK-IMPACT cohort adds 480 verified specifications and 562 repeated-specimen patients; all selected genes occur in both source panels. Prepared-table audits of the full TCGA registry take median 1.04--1.10 seconds in serial measurements; table preparation takes 20.56 seconds separately.
+
+\medskip\noindent\textbf{Interpretation.} Scientific clarification chooses a function; missing observations determine its shared input. CLARA separates semantic stability from point identification. A typed guard returns clarification, interval, or point outcomes with hash-bound, replayable provenance receipts. Forty-three software contracts, independent global TCGA optimization, 64 small-world fixtures, frozen inputs, full registries, and vector figure sources accompany the work. These are execution and mathematical checks; no language-model evaluation, researcher study, or clinical-benefit claim is made.
+
+\medskip\noindent{\small\textbf{Disclosure.} OpenAI ChatGPT (Codex) assisted throughout drafting, derivations, software, and figure design. Authors retain responsibility for validation. Sources: cBioPortal; TCGA PanCancer Atlas; Zehir et al., \emph{Nature Medicine} (2017), doi:10.1038/nm.4333.}
+\end{document}

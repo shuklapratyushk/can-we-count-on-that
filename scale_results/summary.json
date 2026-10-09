@@ -1,0 +1,332 @@
+{
+  "completed_at_utc": "2026-10-07T00:31:30.601052+00:00",
+  "protocol_sha256": "960551b18b54be29df41fbcc5df82626b9f6412b2067d1aacd4e9a18a5749293",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "visible_logical_cpus": 9,
+  "workers": 1,
+  "blas_thread_env": {
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null
+  },
+  "model_construction_total_ms": 20561.005198,
+  "registry": [
+    {
+      "axis": "cohorts",
+      "cohorts": 12,
+      "genes": 30,
+      "families": 360,
+      "local_states": 25740,
+      "distinct_tables": 338,
+      "times_ms": "[1053.717445, 1034.742343, 1039.53588, 1008.680166, 1175.252963]",
+      "median_ms": 1039.53588,
+      "min_ms": 1008.680166,
+      "max_ms": 1175.252963
+    },
+    {
+      "axis": "cohorts",
+      "cohorts": 1,
+      "genes": 30,
+      "families": 30,
+      "local_states": 90,
+      "distinct_tables": 30,
+      "times_ms": "[86.637786, 97.242977, 89.144048, 86.321307, 90.731208]",
+      "median_ms": 89.144048,
+      "min_ms": 86.321307,
+      "max_ms": 97.242977
+    },
+    {
+      "axis": "genes",
+      "cohorts": 12,
+      "genes": 5,
+      "families": 60,
+      "local_states": 4290,
+      "distinct_tables": 57,
+      "times_ms": "[185.304357, 188.550618, 183.360757, 185.013408, 181.852496]",
+      "median_ms": 185.013408,
+      "min_ms": 181.852496,
+      "max_ms": 188.550618
+    },
+    {
+      "axis": "cohorts",
+      "cohorts": 6,
+      "genes": 30,
+      "families": 180,
+      "local_states": 7830,
+      "distinct_tables": 120,
+      "times_ms": "[498.188233, 591.23283, 555.731122, 564.503175, 519.897105]",
+      "median_ms": 555.731122,
+      "min_ms": 498.188233,
+      "max_ms": 591.23283
+    },
+    {
+      "axis": "genes",
+      "cohorts": 12,
+      "genes": 30,
+      "families": 360,
+      "local_states": 25740,
+      "distinct_tables": 338,
+      "times_ms": "[1246.026015, 1112.260214, 1096.313241, 1098.589117, 1005.41166]",
+      "median_ms": 1098.589117,
+      "min_ms": 1005.41166,
+      "max_ms": 1246.026015
+    },
+    {
+      "axis": "cohorts",
+      "cohorts": 3,
+      "genes": 30,
+      "families": 90,
+      "local_states": 7110,
+      "distinct_tables": 90,
+      "times_ms": "[306.818032, 302.369113, 370.381391, 358.369328, 326.318445]",
+      "median_ms": 326.318445,
+      "min_ms": 302.369113,
+      "max_ms": 370.381391
+    },
+    {
+      "axis": "genes",
+      "cohorts": 12,
+      "genes": 10,
+      "families": 120,
+      "local_states": 8580,
+      "distinct_tables": 114,
+      "times_ms": "[444.302107, 347.99525, 372.430283, 367.442561, 397.730083]",
+      "median_ms": 372.430283,
+      "min_ms": 347.99525,
+      "max_ms": 444.302107
+    },
+    {
+      "axis": "genes",
+      "cohorts": 12,
+      "genes": 1,
+      "families": 12,
+      "local_states": 858,
+      "distinct_tables": 11,
+      "times_ms": "[34.469818, 35.801172, 36.438515, 34.742891, 36.734403]",
+      "median_ms": 35.801172,
+      "min_ms": 34.469818,
+      "max_ms": 36.734403
+    },
+    {
+      "axis": "genes",
+      "cohorts": 12,
+      "genes": 20,
+      "families": 240,
+      "local_states": 17160,
+      "distinct_tables": 226,
+      "times_ms": "[668.641351, 711.675291, 714.628507, 714.55108, 708.553579]",
+      "median_ms": 711.675291,
+      "min_ms": 668.641351,
+      "max_ms": 714.628507
+    }
+  ],
+  "blocks": [
+    {
+      "blocks": 10,
+      "local_states": 30,
+      "distinct_tables": 1,
+      "implementation": "grouped",
+      "times_ms": "[0.016345, 0.015183, 0.014272, 0.013831, 0.013691]",
+      "median_ms": 0.014272,
+      "min_ms": 0.013691,
+      "max_ms": 0.016345
+    },
+    {
+      "blocks": 10,
+      "local_states": 30,
+      "distinct_tables": 1,
+      "implementation": "ungrouped",
+      "times_ms": "[0.09238, 0.090717, 0.090978, 0.122555, 0.090887]",
+      "median_ms": 0.090978,
+      "min_ms": 0.090717,
+      "max_ms": 0.122555
+    },
+    {
+      "blocks": 100,
+      "local_states": 300,
+      "distinct_tables": 1,
+      "implementation": "grouped",
+      "times_ms": "[0.015644, 0.014792, 0.014351, 0.013841, 0.013891]",
+      "median_ms": 0.014351,
+      "min_ms": 0.013841,
+      "max_ms": 0.015644
+    },
+    {
+      "blocks": 100,
+      "local_states": 300,
+      "distinct_tables": 1,
+      "implementation": "ungrouped",
+      "times_ms": "[1.022145, 0.955936, 0.963007, 0.906481, 0.878218]",
+      "median_ms": 0.955936,
+      "min_ms": 0.878218,
+      "max_ms": 1.022145
+    },
+    {
+      "blocks": 1000,
+      "local_states": 3000,
+      "distinct_tables": 1,
+      "implementation": "grouped",
+      "times_ms": "[0.103266, 0.015494, 0.014322, 0.014031, 0.01366]",
+      "median_ms": 0.014322,
+      "min_ms": 0.01366,
+      "max_ms": 0.103266
+    },
+    {
+      "blocks": 1000,
+      "local_states": 3000,
+      "distinct_tables": 1,
+      "implementation": "ungrouped",
+      "times_ms": "[10.092809, 9.86573, 12.027939, 9.972241, 10.566129]",
+      "median_ms": 10.092809,
+      "min_ms": 9.86573,
+      "max_ms": 12.027939
+    },
+    {
+      "blocks": 10000,
+      "local_states": 30000,
+      "distinct_tables": 1,
+      "implementation": "grouped",
+      "times_ms": "[0.017577, 0.014863, 0.014141, 0.014001, 0.014532]",
+      "median_ms": 0.014532,
+      "min_ms": 0.014001,
+      "max_ms": 0.017577
+    },
+    {
+      "blocks": 10000,
+      "local_states": 30000,
+      "distinct_tables": 1,
+      "implementation": "ungrouped",
+      "times_ms": "[97.225473, 95.614016, 102.630627, 98.60479, 95.930115]",
+      "median_ms": 97.225473,
+      "min_ms": 95.614016,
+      "max_ms": 102.630627
+    },
+    {
+      "blocks": 100000,
+      "local_states": 300000,
+      "distinct_tables": 1,
+      "implementation": "grouped",
+      "times_ms": "[0.017727, 0.014953, 0.014412, 0.014422, 0.014272]",
+      "median_ms": 0.014422,
+      "min_ms": 0.014272,
+      "max_ms": 0.017727
+    },
+    {
+      "blocks": 100000,
+      "local_states": 300000,
+      "distinct_tables": 1,
+      "implementation": "ungrouped",
+      "times_ms": "[906.947998, 895.477558, 886.955808, 911.644792, 897.703114]",
+      "median_ms": 897.703114,
+      "min_ms": 886.955808,
+      "max_ms": 911.644792
+    }
+  ],
+  "local_blocks": [
+    {
+      "unknown_specimens": 1,
+      "states": 3,
+      "table_bytes": 384,
+      "table_construction_ms": 0.056085,
+      "times_ms": "[0.02025, 0.015944, 0.015323, 0.014532, 0.014181]",
+      "median_ms": 0.015323,
+      "min_ms": 0.014181,
+      "max_ms": 0.02025
+    },
+    {
+      "unknown_specimens": 2,
+      "states": 9,
+      "table_bytes": 1152,
+      "table_construction_ms": 0.025909,
+      "times_ms": "[0.01997, 0.052089, 0.073581, 0.018428, 0.017717]",
+      "median_ms": 0.01997,
+      "min_ms": 0.017717,
+      "max_ms": 0.073581
+    },
+    {
+      "unknown_specimens": 3,
+      "states": 27,
+      "table_bytes": 3456,
+      "table_construction_ms": 0.030035,
+      "times_ms": "[0.029394, 0.028583, 0.027632, 0.027231, 0.027561]",
+      "median_ms": 0.027632,
+      "min_ms": 0.027231,
+      "max_ms": 0.029394
+    },
+    {
+      "unknown_specimens": 4,
+      "states": 81,
+      "table_bytes": 10368,
+      "table_construction_ms": 0.042564,
+      "times_ms": "[0.059209, 0.057537, 0.057006, 0.056665, 0.056635]",
+      "median_ms": 0.057006,
+      "min_ms": 0.056635,
+      "max_ms": 0.059209
+    },
+    {
+      "unknown_specimens": 5,
+      "states": 243,
+      "table_bytes": 31104,
+      "table_construction_ms": 0.097628,
+      "times_ms": "[0.163266, 0.158941, 0.176327, 0.159061, 0.156758]",
+      "median_ms": 0.159061,
+      "min_ms": 0.156758,
+      "max_ms": 0.176327
+    },
+    {
+      "unknown_specimens": 6,
+      "states": 729,
+      "table_bytes": 93312,
+      "table_construction_ms": 0.298041,
+      "times_ms": "[0.478173, 0.434587, 0.44268, 0.429139, 0.425624]",
+      "median_ms": 0.434587,
+      "min_ms": 0.425624,
+      "max_ms": 0.478173
+    },
+    {
+      "unknown_specimens": 7,
+      "states": 2187,
+      "table_bytes": 279936,
+      "table_construction_ms": 0.941334,
+      "times_ms": "[1.922438, 1.833344, 1.835246, 2.202802, 2.007306]",
+      "median_ms": 1.922438,
+      "min_ms": 1.833344,
+      "max_ms": 2.202802
+    },
+    {
+      "unknown_specimens": 8,
+      "states": 6561,
+      "table_bytes": 839808,
+      "table_construction_ms": 3.994623,
+      "times_ms": "[7.285931, 6.920157, 6.654696, 6.775719, 7.077897]",
+      "median_ms": 6.920157,
+      "min_ms": 6.654696,
+      "max_ms": 7.285931
+    },
+    {
+      "unknown_specimens": 9,
+      "states": 19683,
+      "table_bytes": 2519424,
+      "table_construction_ms": 10.653544,
+      "times_ms": "[22.298669, 21.365228, 21.777611, 21.957072, 22.053699]",
+      "median_ms": 21.957072,
+      "min_ms": 21.365228,
+      "max_ms": 22.298669
+    },
+    {
+      "unknown_specimens": 10,
+      "states": 59049,
+      "table_bytes": 7558272,
+      "table_construction_ms": 30.851416,
+      "times_ms": "[62.960525, 64.813708, 65.286433, 64.449577, 65.591334]",
+      "median_ms": 64.813708,
+      "min_ms": 62.960525,
+      "max_ms": 65.591334
+    }
+  ],
+  "validation": "Grouped and ungrouped integer supports agree exactly at every synthetic block count",
+  "limitations": "Measured serial kernel scaling on a frozen registry and declared synthetic workloads, not a new biological cohort, all-cBioPortal evaluation, HPC benchmark, or distributed-system result"
+}

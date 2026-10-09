@@ -1,0 +1,21 @@
+test_empty_denominator_is_undefined (__main__.CountingContracts.test_empty_denominator_is_undefined) ... ok
+test_invalid_enum_fails (__main__.CountingContracts.test_invalid_enum_fails) ... ok
+test_missingness_bound (__main__.CountingContracts.test_missingness_bound) ... ok
+test_patient_union_and_duplicate_deduplication (__main__.CountingContracts.test_patient_union_and_duplicate_deduplication) ... ok
+test_primary_context_does_not_inherit_metastatic_mutation (__main__.CountingContracts.test_primary_context_does_not_inherit_metastatic_mutation) ... ok
+test_sample_unit (__main__.CountingContracts.test_sample_unit) ... ok
+test_truncating_scope_and_silent_exclusion (__main__.CountingContracts.test_truncating_scope_and_silent_exclusion) ... ok
+test_unprofiled_positive_cannot_enter_numerator (__main__.CountingContracts.test_unprofiled_positive_cannot_enter_numerator) ... ok
+test_zero_mutation_gene (__main__.CountingContracts.test_zero_mutation_gene) ... ok
+test_absolute_or_branch (__main__.DecisionContracts.test_absolute_or_branch) ... ok
+test_extrema_equal_all_pairs (__main__.DecisionContracts.test_extrema_equal_all_pairs) ... ok
+test_joint_sensitivity_can_be_missed_by_one_axis_checks (__main__.DecisionContracts.test_joint_sensitivity_can_be_missed_by_one_axis_checks) ... ok
+test_planner_uniform_expectation_and_stable_terminal_states (__main__.DecisionContracts.test_planner_uniform_expectation_and_stable_terminal_states) ... ok
+test_undefined_candidate_cannot_certify_stability (__main__.DecisionContracts.test_undefined_candidate_cannot_certify_stability) ... ok
+test_zero_pair_stable (__main__.DecisionContracts.test_zero_pair_stable) ... ok
+test_zero_vs_positive_sensitive (__main__.DecisionContracts.test_zero_vs_positive_sensitive) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.039s
+
+OK

@@ -1,0 +1,9 @@
+meta_study.txt 300
+meta_mutations.txt 334
+LICENSE 455
+Readme.txt 122
+data_clinical_sample.txt 1915057
+data_gene_panel_matrix.txt 525403
+data_mutations.txt 20086660
+data_gene_panel_impact341.txt 2151
+data_gene_panel_impact410.txt 2555

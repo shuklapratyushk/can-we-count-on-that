@@ -1,0 +1,111 @@
+{
+  "created_at_utc": "2026-10-06T23:02:15.715894+00:00",
+  "families": 360,
+  "interpretations": 5760,
+  "pair_certificates": 43200,
+  "one_axis_contrasts": 1440,
+  "tcga_samples": 6210,
+  "tcga_patients": 6204,
+  "unprofiled_specimens": 286,
+  "largest_unprofiled_patient_block": 1,
+  "global_lp_verified_pairs": 43200,
+  "distinct_global_lp_objectives": 363,
+  "reused_global_lp_objectives": 172437,
+  "method": "Global HiGHS LP with nested-class constraints; exact integer support comparisons",
+  "families_sensitive": {
+    "observed": 323,
+    "coupled": 356,
+    "box": 356,
+    "box_merged": 356
+  },
+  "pair_sensitive_counts": {
+    "observed": 23370,
+    "coupled": 31337,
+    "box": 34385,
+    "box_merged": 31626
+  },
+  "one_axis_sensitive_counts": {
+    "observed": 428,
+    "coupled": 601,
+    "box": 601,
+    "box_merged": 601
+  },
+  "box_only_pair_count": 3048,
+  "merged_box_only_pair_count": 289,
+  "observed_stable_coupled_sensitive_pairs": 7967,
+  "point_guard_unidentified_specs": 720,
+  "relative_bracket_max_width": 1.8189894035458565e-12,
+  "uniform_planning": [
+    {
+      "certificate": "observed",
+      "exact_expected": 1.148611111111111,
+      "exact_max": 2.0,
+      "minimax_mean": 1.1972222222222222,
+      "minimax_worst": 2.0,
+      "greedy_mean": 1.148611111111111,
+      "entropy_mean": 3.5527777777777776,
+      "best_family_fixed": 1.148611111111111,
+      "best_global_fixed": 1.2381944444444444,
+      "best_global_order": "mutation_scope;assay_denominator;sample_context;analysis_unit",
+      "saving_vs_best_global_fixed": 0.07234997195737525
+    },
+    {
+      "certificate": "coupled",
+      "exact_expected": 1.773263888888889,
+      "exact_max": 4.0,
+      "minimax_mean": 1.8180555555555555,
+      "minimax_worst": 4.0,
+      "greedy_mean": 1.773263888888889,
+      "entropy_mean": 3.845833333333333,
+      "best_family_fixed": 1.773263888888889,
+      "best_global_fixed": 1.8302083333333334,
+      "best_global_order": "mutation_scope;assay_denominator;sample_context;analysis_unit",
+      "saving_vs_best_global_fixed": 0.031113640675393683
+    },
+    {
+      "certificate": "box",
+      "exact_expected": 2.496875,
+      "exact_max": 4.0,
+      "minimax_mean": 2.963888888888889,
+      "minimax_worst": 4.0,
+      "greedy_mean": 2.496875,
+      "entropy_mean": 3.845833333333333,
+      "best_family_fixed": 2.4975694444444443,
+      "best_global_fixed": 2.5538194444444446,
+      "best_global_order": "mutation_scope;assay_denominator;sample_context;analysis_unit",
+      "saving_vs_best_global_fixed": 0.02229775662814415
+    },
+    {
+      "certificate": "box_merged",
+      "exact_expected": 1.8333333333333333,
+      "exact_max": 4.0,
+      "minimax_mean": 1.9388888888888889,
+      "minimax_worst": 4.0,
+      "greedy_mean": 1.8333333333333333,
+      "entropy_mean": 3.845833333333333,
+      "best_family_fixed": 1.8340277777777778,
+      "best_global_fixed": 1.8902777777777777,
+      "best_global_order": "mutation_scope;assay_denominator;sample_context;analysis_unit",
+      "saving_vs_best_global_fixed": 0.03012490815576785
+    }
+  ],
+  "scenario_priors": 81,
+  "cost_scenarios": 3,
+  "prior_cost_scenarios": 243,
+  "scenario_saving_range_vs_global_fixed": [
+    0.006947071995237253,
+    0.07287301876480157
+  ],
+  "scenario_saving_range_vs_family_fixed": [
+    -2.220446049250313e-16,
+    0.0009640957446810372
+  ],
+  "synthetic_validation": {
+    "synthetic_fixtures": 64,
+    "globally_enumerated_worlds": 1314,
+    "status": "All absolute supports and relative brackets match direct global enumeration",
+    "interpretation": "Software/mathematical verification, not empirical biological observations"
+  },
+  "runtime_seconds": 84.06381388499995,
+  "provenance": "Executed coupled missing-status extension on frozen public TCGA snapshot; scenario priors/costs are stipulated, not empirical user distributions"
+}

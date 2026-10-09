@@ -1,0 +1,9 @@
+group,field,sum,count,mean
+additional,analysis_unit,0,120,0.0
+additional,assay_denominator,53,120,0.44166666666666665
+additional,mutation_scope,88,120,0.7333333333333333
+additional,sample_context,1,120,0.008333333333333333
+original,analysis_unit,0,240,0.0
+original,assay_denominator,30,240,0.125
+original,mutation_scope,229,240,0.9541666666666667
+original,sample_context,27,240,0.1125

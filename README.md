@@ -1,9 +1,6 @@
 # CLARA standalone reproducibility artifact
 
-This is the current shared-completion research artifact. The IEEE main paper
-has eight pages including nineteen references. It is a prepared source/data
-release, without an assigned public repository URL, archival DOI, or external
-publication.
+This is the current shared-completion research artifact.
 
 ## Reproduce
 

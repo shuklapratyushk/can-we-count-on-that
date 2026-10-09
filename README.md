@@ -1,4 +1,4 @@
-# CLARA standalone reproducibility artifact
+# standalone reproducibility artifact
 
 This is the current shared-completion research artifact.
 
